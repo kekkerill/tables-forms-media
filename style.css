@@ -1,0 +1,155 @@
+body{
+    font-family: Space Mono,monospace;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    align-items: center;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+header{
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    background-color:#5a417a;
+}
+.main-title{
+    margin-top: 7rem;
+    text-align: center;
+}
+.btns{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 30%;
+}
+.btn{
+    border:1px solid #5a417a;
+    border-radius: 15px;
+    height: 3rem;
+    width: 10rem;
+}
+.btn:hover{
+    color: aliceblue;
+    background-color: #5a417a;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+
+}
+th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+.table-header{
+background-color: #5a417a;
+color:white
+}
+.purple{
+    background-color: #5a417a;
+    color: white;
+}
+.table{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.table-upline{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.table-footer{
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.nav-btns{
+    margin-top: 2rem;
+}
+.form-title{
+    text-align: center;
+}
+.reg{
+    padding: 15px 30px;
+  align-items: flex-start;
+  justify-content: center;
+    border-radius: 10px;
+    display: flex;
+   margin-top: 3rem;
+    border: 1px solid #5a417a;
+    width: 25rem;
+    height: 20rem;
+}
+.main-form{
+    margin-top: 3rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.input-fname{
+    width: 20rem;
+    height: 1rem;
+    border-radius: 5px;   
+    border: 1px solid #5a417a;
+}
+.input-lname{
+    width: 20rem;
+    height: 1rem;
+    border-radius: 5px;
+    border: 1px solid #5a417a;
+}
+.input-email{
+    width: 20rem;
+    height: 1rem;
+    border-radius: 5px;
+    border: 1px solid #5a417a;
+}
+.input-password{
+    width: 20rem;
+    height: 1rem;
+    border-radius: 5px;
+    border: 1px solid #5a417a;
+}
+.radio-box{
+    margin-top: 1em;
+}
+.selector{
+    margin-top: 1em;
+}
+.submit{
+    margin-top: 1em;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.music{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.video-item{
+    width: 640px;
+    height: 360px;
+}

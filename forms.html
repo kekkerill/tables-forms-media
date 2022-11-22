@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+        <a href="index.html"> <button class="btn">Главаная страница</button> </a>
+        <div class="header-title">Страница для Форм</div>
+    </div>
+    </header>
+    <main class='main-form'>
+        <div class="form-title">
+            В данном примере представлена форма регитсрации
+        </div>
+        <div class="reg">
+            <form action="">
+             <div class="reg-inputs">
+                <label for="name">Введите имя<input name="name" type="text" id="fname" placeholder="Например: Иван" class="input-fname"></label><br>
+                <label for="name">Введите Фамилию<input name="last-name" type="text" id="fname" placeholder="Например: Иванов" class="input-lname"></label><br>
+                <label for="email" >Введите E-mail<br/><input name='email' type="email" id="email" placeholder="example@gmail.com" class="input-email"> </label><br>
+                <label for="password" >Введите пароль<br/><input name='password' type="password" id="password" placeholder="Например:12345678" class="input-password"> </label>
+                <div class="radio-box">
+                    <input type="radio" id="gender-m" name='gender'value="male"><label for="gender-m">Мужской</label> 
+                    <input type="radio" id="gender-f" name='gender' value="female"><label for="gender-f">женский</label> 
+                </div>
+                <div class="selector">
+                <select name="eye-color" id="eye-color" aria-placeholder="цвет глаз">
+                    <option value="black">Чёрный</option>
+                    <option value="green">Зелёный</option>
+                    <option value="blue">Голубой</option>
+                    <option value="brown">Карие</option>
+                </select>
+                </div>
+                <div class="submit">
+                    <input type="submit">
+                </div>
+             </form>
+            </div>
+    </main>
+</body>
+</html>
